@@ -1,0 +1,40 @@
+@font-face {
+    font-family: HKNova;
+    src: url(css/HKNova-Medium.woff);
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+#bitcoin{
+	font-size: 35px;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;    
+}
+
+.container h1 {
+    color: white;
+}
+
+.jumbotron {
+    background: rgba(4, 35, 46, 1);
+    background: -moz-linear-gradient(top, rgba(4, 35, 46, 1) 0%, rgba(19, 116, 148, 1) 48%, rgba(14, 123, 153, 1) 51%, rgba(18, 148, 196, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(4, 35, 46, 1)), color-stop(48%, rgba(19, 116, 148, 1)), color-stop(51%, rgba(14, 123, 153, 1)), color-stop(100%, rgba(18, 148, 196, 1)));
+    background: -webkit-linear-gradient(top, rgba(4, 35, 46, 1) 0%, rgba(19, 116, 148, 1) 48%, rgba(14, 123, 153, 1) 51%, rgba(18, 148, 196, 1) 100%);
+    background: -o-linear-gradient(top, rgba(4, 35, 46, 1) 0%, rgba(19, 116, 148, 1) 48%, rgba(14, 123, 153, 1) 51%, rgba(18, 148, 196, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(4, 35, 46, 1) 0%, rgba(19, 116, 148, 1) 48%, rgba(14, 123, 153, 1) 51%, rgba(18, 148, 196, 1) 100%);
+    background: linear-gradient(to bottom, rgba(4, 35, 46, 1) 0%, rgba(19, 116, 148, 1) 48%, rgba(14, 123, 153, 1) 51%, rgba(18, 148, 196, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04232e', endColorstr='#1294c4', GradientType=0);
+    height: 93%;
+    color: black;
+    font-family: HKNova;
+}
+
+.rodape {
+    height: 2%;
+    background-color: white;
+}
